@@ -34,5 +34,14 @@ $(function(){
         
     },2500)
 
+    // 팝업
+
+    $(".p_up").click(function(){
+        $(".popup").show();
+    })
+    $(".close").click(function(){
+        $(".popup").hide();
+    })
+
 
 })//j end
